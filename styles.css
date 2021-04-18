@@ -585,8 +585,8 @@ video {
   font-weight: 600;
 }
 
-.h-auto {
-  height: auto;
+.h-96 {
+  height: 24rem;
 }
 
 .text-xl {
@@ -609,8 +609,9 @@ video {
   margin-right: 2rem;
 }
 
-.min-h-screen {
-  min-height: 100vh;
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .pr-2 {
@@ -619,10 +620,6 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
 }
 
 .relative {
@@ -662,6 +659,10 @@ video {
 
 .tracking-widest {
   letter-spacing: 0.1em;
+}
+
+.w-auto {
+  width: auto;
 }
 
 @-webkit-keyframes spin {
@@ -843,6 +844,17 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:h-auto {
+    height: auto;
+  }
+
+  .md\:min-h-screen {
+    min-height: 100vh;
+  }
+
+  .md\:w-auto {
+    width: auto;
+  }
 }
 
 @media (min-width: 1024px) {
