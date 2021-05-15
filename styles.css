@@ -572,21 +572,25 @@ video {
 
 .bg-black {
   --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, 1);
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, 1);
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
 .bg-gray-100 {
   --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, 1);
   background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
 }
 
 .bg-gray-900 {
   --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, 1);
   background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
 }
 
@@ -1236,6 +1240,7 @@ video {
 
 .primo-copy mark {
     --tw-bg-opacity: 1;
+    background-color: rgba(253, 230, 138, 1);
     background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgba(17, 24, 39, var(--tw-text-opacity));
@@ -1252,6 +1257,17 @@ video {
       line-height: 2.5rem;
     }
   }
+
+html {
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 213, 219, 1);
+  background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+  height: 100vh;
+}
+
+.containers {
+  width: 100%;
+}
 
 @media (min-width: 640px) {
 }
